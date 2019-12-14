@@ -1,0 +1,226 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* PC */
+#wrap{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #555;
+    opacity: 0.9;
+}
+
+a:hover{
+      opacity: 1;
+}
+
+header{
+    /* background-color: steelblue; */
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header a{
+    color: white;
+}
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    padding: 1.4rem;
+    align-self: center;
+}
+header nav ul{
+    display: flex;
+    position: absolute;
+    right: 0;  
+    height: 100%;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.2rem 0 0.5rem;
+}
+
+header nav ul li{
+    margin-right: 2rem;
+}
+
+.home{
+    /* background-image: url(""); */
+    /* opacity: 0.9; */
+    background-position: center;
+    background-size: cover;
+    margin-top: 5.6rem;
+    height: 100vh;
+    min-height: 550px;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    position: relative;
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
+} 
+
+.background{
+    /* background-image: url(image/frame.jpg);*/
+    /* background-size: 100%;  */
+    position: relative;
+    margin-bottom: 3.5rem;
+    width: 430px;
+    height: 430px;
+    flex-wrap: wrap; 
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.puzzle {
+    margin: 1px;
+    background-size: 420px, 420px;
+}
+
+side {
+    position: absolute;
+    overflow: auto;
+    background-color: darkgray; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+}
+
+.pictures {
+    position: relative;
+    padding-top: 6.3rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.picture img {
+    margin: 10px;
+    border-radius: 20px;
+    border: 1.5px solid white;
+
+    width: 140px;
+    height: 140px;
+}
+
+
+/* 모바일, 아이패드*/
+@media (max-width:768px){
+#wrap{
+    /* display: flex; */
+    height: 100vh;
+}
+
+header{
+    flex-direction: column;
+}
+
+header h2{
+    font-size: 2rem;
+    padding: 1rem 0 0.5rem 0;
+}
+
+header nav ul{
+    position: relative;
+    right: 0;
+    justify-content: space-around;
+    padding: 0.2rem 0 0.5rem;
+    font-size: 1.2rem;
+    border-top: 1px solid white;
+}
+
+header nav ul li{
+    margin-right: 0;
+}
+
+.background {
+    margin-bottom: 8rem;
+}
+
+side {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    /* left: 0; */
+    height: 120px;
+    width: 100%;
+}
+
+.pictures {
+    flex-direction: row;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+}
+
+

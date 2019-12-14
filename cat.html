@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>8-Puzzle Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="gameCSS.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <h2><a href="index.html">8-Puzzle Game</a></h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="game.html">Play</a></li>
+          <li><a href="score.html">Score</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <section class="home">
+      <P id="timer">00 : 00 : 00</P>
+      <div class="background" >
+        <div class="puzzle" style="top: 0px; left: 0px; width: 140px; height: 140px;
+        display: flex;  background-position: 0px 0px;
+        ">
+            <span>1</span>
+        </div>
+        <div class="puzzle" style="top: 0px; left: 140px; width: 140px; height: 140px;
+        display: flex;  background-position: -140px 0px;
+        ">
+            <span>2</span>
+        </div>
+        <div class="puzzle" style="top: 0px; left: 280px; width: 140px; height: 140px;
+        display: flex; background-position: -280px 0px;
+        ">
+            <span>3</span>
+        </div>
+        <div class="puzzle" style="top: 140px; left: 0px; width: 140px; height: 140px;
+        display: flex;  background-position: 0px -140px;
+        ">
+            <span>4</span>
+        </div>
+        <div class="puzzle" style="top: 140px; left: 140px; width: 140px; height: 140px;
+        display: flex;  background-position: -140px -140px;
+        ">
+            <span>5</span>
+        </div>
+        <div class="puzzle" style="top: 140px; left: 280px; width: 140px; height: 140px;
+        display: flex;  background-position: -280px -140px;
+        ">
+            <span>6</span>
+        </div>
+        <div class="puzzle" style="top: 280px; left: 0px; width: 140px; height: 140px;
+        display: flex;  background-position: 0px -280px;
+        ">
+            <span>7</span>
+        </div>
+        <div class="puzzle" style="top: 280px; left: 140px; width: 140px; height: 140px;
+        display: flex;  background-position: -140px -280px;
+        ">
+            <span>8</span>
+        </div>
+        <div class="puzzle" style="top: 280px; left: 280px; width: 140px; height: 140px;
+        display: flex;  background-position: -280px -280px;
+        ">
+            <span>9</span>
+        </div>
+      </div>
+
+      <side>
+        <div class="pictures">
+          <div class="picture">
+              <img src="dog2.jpg">
+          </div>
+          <div class="picture">
+              <img src="dog.jpg">
+          </div>
+          <div class="picture">
+              <img src="tajo.jpg">
+          </div>
+          <div class="picture">
+              <img src="squarrel.jpg">
+          </div>
+          <div class="picture">
+              <img src="cat.jpg">
+          </div>
+          <div class="picture">
+              <img src="tiger.jpg">
+          </div>
+        </div>
+      </side>
+    </section>
+  </div>
+  <script>
+      $(document).ready(function() {
+        resizeContent();
+      });
+
+      $(window).resize(function() {
+        resizeContent();
+      });
+
+      function resizeContent() {
+        var windowHeight = $(window).height();
+        var headerHeight = $("header").height();
+        $('.home').css({'height':(windowHeight-headerHeight)+'px'});
+      }
+  </script>
+  <script type="text/javascript" src="gameJS_cat.js"></script>
+</body>
+</html>

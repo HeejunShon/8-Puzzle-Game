@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>8-Puzzle Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="scoreCSS.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <h2><a href="index.html">8-Puzzle Game</a></h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="game.html">Play</a></li>
+          <li><a href="score.html">Score</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <section class="home">
+      <div class="background" >
+          <div class="paper">
+              <h1></h1>
+          </div>
+      </div>
+
+      <side>
+        <div class="pictures">
+          <div class="picture">
+              <img src="dog2.jpg">
+              <p>시바견</p>
+          </div>
+          <div class="picture">
+              <img src="dog.jpg">
+              <p>허스키</p>
+          </div>
+          <div class="picture">
+              <img src="tajo.jpg">
+              <p>타조</p>
+          </div>
+          <div class="picture">
+              <img src="squarrel.jpg">
+              <p>다람쥐</p>
+          </div>
+          <div class="picture">
+              <img src="cat.jpg">
+              <p>고양이</p>
+          </div>
+          <div class="picture">
+              <img src="tiger.jpg">
+              <P>호랑이</P>
+          </div>
+      </side>
+    </section>
+  </div>
+  <script>
+      $(document).ready(function() {
+        resizeContent();
+      });
+
+      $(window).resize(function() {
+        resizeContent();
+      });
+
+      function resizeContent() {
+        var windowHeight = $(window).height();
+        var headerHeight = $("header").height();
+        $('.home').css({'height':(windowHeight-headerHeight)+'px'});
+      }
+  </script>
+  <script type="text/javascript" src="scoreJS.js"></script>
+</body>
+</html>
