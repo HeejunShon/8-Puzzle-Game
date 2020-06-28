@@ -1,56 +1,47 @@
 
 https://have-fun.tistory.com/entry/DB%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%82%BD%EC%9E%85-%EC%88%98%EC%A0%95-%EC%82%AD%EC%A0%9C
-- ´åÈ¨ php
+- ë‹·í™ˆ php
 
 http://blog.naver.com/PostView.nhn?blogId=rlgns8291&logNo=220904778932
--php ¿¬µ¿
+-php ì—°ë™
 
 https://infotake.tistory.com/88
-- cors ÇØ°á¹ý
+- cors í•´ê²°ë²•
 
 http://blog.freezner.com/archives/109
--JQuery ¿¤¸®¸ÕÆ® µ¿Àû ÄÁÆ®·Ñ
+-JQuery ì—˜ë¦¬ë¨¼íŠ¸ ë™ì  ì»¨íŠ¸ë¡¤
 
 https://kldp.org/node/137357
--input Å¬¸¯½Ã ÀÌ¹ÌÁöº¯°æ
-
-https://unikys.tistory.com/348
-- ÆäÀÌ½ººÏ ¿¬µ¿
+-input í´ë¦­ì‹œ ì´ë¯¸ì§€ë³€ê²½
 
 - phpMyAdmin
 
 https://blog.wonhada.com/?p=1713&
-- aws ¼­¹ö
+- aws ì„œë²„
 
 http://miconblog.com/archives/211
-- ¸ù°ídb ¼­¹ö
+- ëª½ê³ db ì„œë²„
 
 $('.container').fadeOut(3000);
-- ÆäÀÌµå¾Æ¿ô 
+- íŽ˜ì´ë“œì•„ì›ƒ 
 
 https://dororongju.tistory.com/101
--²¿¸®¹°±â°ÔÀÓ
+-ê¼¬ë¦¬ë¬¼ê¸°ê²Œìž„
 
 https://justmakeyourself.tistory.com/entry/learn-to-responsive-web-third?category=729470
--¹ÝÀÀÇü À¥ -> ¸ð¹ÙÀÏ, pc¹öÀü ¸¸µé±â -> Á¢¼Ó½Ã alert ¶ç¿ì±â
+-ë°˜ì‘í˜• ì›¹ -> ëª¨ë°”ì¼, pcë²„ì „ ë§Œë“¤ê¸° -> ì ‘ì†ì‹œ alert ë„ìš°ê¸°
 
 https://webclub.tistory.com/356
-- »çÀÌÁîÁ¶Àý (¸ð¹ÙÀÏ ²ËÂ÷°Ô)
+- ì‚¬ì´ì¦ˆì¡°ì ˆ (ëª¨ë°”ì¼ ê½‰ì°¨ê²Œ)
 
 https://webactually.com/2018/07/css-%EA%B7%B8%EB%A6%AC%EB%93%9C-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EB%AA%A8%EB%B2%94-%EC%82%AC%EB%A1%80/
-- ±×¸®µå ·¹ÀÌ¾Æ¿ô ¼³¸í ±Â
+- ê·¸ë¦¬ë“œ ë ˆì´ì•„ì›ƒ ì„¤ëª… êµ¿
 
 https://unikys.tistory.com/300
--jQuery ±âº»
-
-http://guny.kr/archives/50
-- 8ÆÛÁñ ½ÉÇÃ
-
-https://murhafsousli.github.io/8puzzle/#/
-- 8ÆÛÁñ ´ë¹Ú
+-jQuery ê¸°ë³¸
 
 https://postcron.com/image-splitter/editor/en/upload-image
-- ÀÌ¹ÌÁö ºÐÇÒ
+- ì´ë¯¸ì§€ ë¶„í• 
 
 
-±×¸² ¿Ï¼º½Ã -> ¿Ï¼º ±×¸² ¾à°£Å©°Ô, ¾×ÀÚ¾È¿¡ ³Ö¾î¼­ º¸¿©ÁÖ±â
+ê·¸ë¦¼ ì™„ì„±ì‹œ -> ì™„ì„± ê·¸ë¦¼ ì•½ê°„í¬ê²Œ, ì•¡ìžì•ˆì— ë„£ì–´ì„œ ë³´ì—¬ì£¼ê¸°
